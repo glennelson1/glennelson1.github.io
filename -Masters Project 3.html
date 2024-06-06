@@ -35,7 +35,16 @@
 							<span class="image fit"><img src="images/Project3.jpg" alt="" /></span>
 							<p> For my third project I wanted to improve the output of the Procedural level generation that I have created, Within this project i both improved the PCG system from project 1 and create an early implementation of a evolutionary algorithm. </p>
                 <span class="image fit"><img src="images/ImprovedLevelGeneration.gif" alt="" /></span>
-								<p>Evoluctionary Attempt at procedurally generating 2D platforming levels </p>
+								<p>Evoluctionary Attempt at procedurally generating 2D platforming levels
+									Initialize Population – creates the initial level sequence that the approach will evolve.
+									Evaluate Population – gives the level sequence a fitness score based on uniqueness.
+									Selection – selects good sub segments of the sequence to save for later generations.
+									Crossover – Allows for crossover from previous generation.
+									Adjust Mutation Rate - adjusts the chance of randomness of the generations, randomness will decrease over time.
+									Mutation – Allows for randomness to be introduced within the sequence.
+									Spawn Grid From Genome – creates the level from the sequence create by the Procedural approach.
+									This process repeats currently for 100 generations
+								</p>
 								<span class="image fit"><img src="images/EvoluctionaryAttempt.gif" alt="" /></span>
 						</div>
 					</section>
